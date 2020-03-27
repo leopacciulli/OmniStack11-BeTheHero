@@ -2,9 +2,13 @@
   <img src="./omnistack11.svg">
 </h1>
 
-### Primeira participação no intensivo da 11° OmniStack - [RocketSeat](https://rocketseat.com.br/) :rocket:
+<h3 align="center">
+  ### Primeira participação no intensivo da OmniStack 11.0 - [RocketSeat](https://rocketseat.com.br/) :rocket:
+</h3>
 
-### :computer: :iphone: Desenvolvendo um projeto totalmente FullStack :iphone: :computer: 
+<h3 align="center">
+  ### :computer: :iphone: Desenvolvendo um projeto totalmente FullStack :iphone: :computer: 
+</h3>
 
 <h3 align="center">
   <img src="./bethehero.svg">
@@ -22,6 +26,8 @@
 </h3>
 
 1° Clonar o projeto: `git clone https://github.com/leopacciulli/OmniStack11-BeTheHero.git`
+
+<br>
 
 2° Start no Back End (que irá rodar na porta `localhost:3333`):
 
