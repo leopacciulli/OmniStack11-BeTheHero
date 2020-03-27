@@ -2,9 +2,7 @@
   <img src="./omnistack11.svg">
 </h1>
 
-<h3 align="center">
-  ### Primeira participação no intensivo da OmniStack 11.0 - [RocketSeat](https://rocketseat.com.br/) :rocket:
-</h3>
+### Primeira participação no intensivo da OmniStack 11.0 - [RocketSeat](https://rocketseat.com.br/) :rocket:
 
 <h3 align="center">
   ### :computer: :iphone: Desenvolvendo um projeto totalmente FullStack :iphone: :computer: 
