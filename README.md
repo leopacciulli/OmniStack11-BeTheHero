@@ -1,62 +1,146 @@
 <h1 align="center">
-  <img src="./omnistack11.svg">
+  <img src="./omnistack11.svg" width="250px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./bethehero.svg" width="150px">
 </h1>
 
-### Primeira participação no intensivo da OmniStack 11.0 - [RocketSeat](https://rocketseat.com.br/) :rocket:
-
 <h3 align="center">
-  <img src="./bethehero.svg">
+🚀 <br>
+First participation in the OmniStack 11.0 intensive - <a href="https://rocketseat.com.br/">RocketSeat</a>
 </h3>
 
-<h3 align="center">
-:computer: :iphone: Desenvolvendo um projeto totalmente FullStack :iphone: :computer: 
-</h3>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/leopacciulli/OmniStack11-BeTheHero?color=yellow">
+  
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/leopacciulli/OmniStack11-BeTheHero?color=yellow">
 
-- Uma aplicação onde o objetivo é encontrar pessoas a fim de contribuir com ONGs necessitadas de ajuda para alguma causa ocorrida. Na plataforma WEB as ONGs podem se cadastrar informando a causa ocorrida com o seu detalhamento e valor de custo, para que após isso as pessoas no aplicativo MOBILE irão encontrar as ONGs cadastradas e selecionar um (ou mais) casos que queiram contribuir para ajuda.
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/leopacciulli/OmniStack11-BeTheHero?color=yellow">
+  
+  <img alt="Made by Rocketseat" src="https://img.shields.io/github/license/leopacciulli/OmniStack11-BeTheHero">
 
-### :hammer_and_wrench: Tecnologias utilizadas:
-- Back End: Node.JS, Express e Nodemon;
-- Front End: React.JS para plataforma WEB e React Native para dispositivo MOBILE;
-- Banco de dados: Knex.JS
+  <br>
 
-<h3 align="center">
-  :checkered_flag: Startando o projeto :checkered_flag:
-</h3>
+  <img alt="NodeJS version" src="https://img.shields.io/badge/Node.JS-v12.16.1-689f63?style=flat&logoColor=689f63&logo=node.js">
 
-1° Clonar o projeto: `git clone https://github.com/leopacciulli/OmniStack11-BeTheHero.git`
+  <img alt="ReactJS version" src="https://img.shields.io/badge/React.JS-v16.13.1-60dafb?style=flat&logoColor=60dafb&logo=react">
+
+  <img alt="Expo version" src="https://img.shields.io/badge/Expo-v36.0.0-blue?style=flat&logo=expo">
+</p>
 
 <br>
 
-2° Start no Back End (que irá rodar na porta `localhost:3333`):
+### 📝 About the project
+An application where the objective is to find people in order to contribute to ONGs in need of help for any cause that has occurred. On the WEB platform, ONGs can register informing the cause with their details and cost value, in the MOBILE application they will find registered ONGs and select one (or more) cases that want to contribute to help.
 
-```sh
+<div align="center">
+  <img src="./hero-web.gif" width="350px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./hero-mob.gif" width="130px" />
+</div>
+
+<br>
+
+## 🤖 Back-End
+The Back-End was developed with Node.JS, in API Rest format.
+The connection to the PostgreSQL database was made with KnexJS.
+
+### 🛠 Technologies
+- **[Node.JS](https://nodejs.org/en/)**
+- *[Express](https://expressjs.com/pt-br/)*
+- *[Nodemon](https://nodemon.io/)*
+- *[Knex.JS](http://knexjs.org/)*
+
+<br>
+
+## 🖥 Front-End
+The Front-End was developed with React.JS. The navigation screens were made with React Router DOM. To connect with the Back-End, Axios was used.
+
+### 🛠 Technologies
+- **[React.JS](https://reactjs.org/)**
+- *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
+- *[Axios](https://nodemon.io/)*
+
+<br>
+
+## 📱 Mobile
+The Mobile was developed with React Native using Expo to build the application. The navigation screens were made with React Router DOM. To connect with the Back-End, Axios was used.
+
+### 🛠 Technologies
+- **[React Native](https://reactnative.dev/)**
+- *[Expo](https://expo.io/)*
+- *[React Navigation](https://reactnavigation.org/)*
+- *[Axios](https://nodemon.io/)*
+
+<br>
+
+## 🏁 Starting the project
+Clone the project: `git clone https://github.com/leopacciulli/OmniStack11-BeTheHero.git`
+
+<br>
+
+🤖 To run the **Back-End**, (run in the port 3333)
+<br>Then open the terminal and run the following commands:
+
+````zsh
+# to enter the Back-End folder
 $ cd backend
-$ npm install
-$ npm start
-```
 
+# to download the dependencies
+$ yarn
+
+# to start the application on port 3333
+$ yarn start
+````
 <br>
 
-3° Em um novo terminal starte o Front End (que irá rodar na porta `localhost:3000`)
+🖥 To run the **Front-End**, in another terminal tab, execute the following commands:
 
-```sh
+````zsh
+# to enter the Front-End folder
 $ cd frontend
-$ npm install
-$ npm start
-```
 
+# to download the dependencies
+$ yarn
+
+# to start the application on port 3000
+$ yarn start
+````
 <br>
 
-### Para executar o projeto MOBILE é necessário baixar o Expo em seu dispositivo móvel
+📱 To run **Mobile**, you need an Android or iOS simulator (Mac only) running on your computer or connect your physical smartphone to USB. To learn how to install / configure, follow the [RocketSeat tutorial](https://blog.rocketseat.com.br/expo-react-native/).
+<br>Now, on another tab of the terminal, run the following commands:
 
-Deixe o Back End rodando na porta `localhost:3333` e execute os seguintes comandos:
-
-```sh
+````zsh
+# to enter the Mobile folder
 $ cd mobile
-$ npm install
-$ npm start
-```
+
+# to download the dependencies
+$ yarn
+
+# to run openning the Expo on your browser
+$ yarn start
+
+# OR to start the app on the simulator or on the Android physical smartphone connected to the USB device
+$ yarn android
+
+# OR to launch the app on the simulator or on the physical iOS smartphone connected to the USB device (only using Mac)
+$ yarn ios
+````
+
 
 ---
 
-Autor: [Leonardo Pacciulli](https://www.linkedin.com/in/leonardo-pacciulli-a4b86a92/)
+
+<h3 align="center">
+  Made with love by 💙 Leonardo Pacciulli
+</h3>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/leonardo-pacciulli">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-/in/leonardopacciulli-0e76a8?style=flat&logoColor=white&logo=linkedin">
+  </a>
+  <a href="https://www.facebook.com/paculli">
+    <img alt="Facebook" src="https://img.shields.io/badge/Facebook-/LeonardoPacciulli-1778F2?style=flat&logoColor=white&logo=facebook">
+  </a>
+  <a href="https://www.instagram.com/leopacciulli/">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-@leopacciulli-833AB4?style=flat&logoColor=white&logo=instagram">
+  </a>
+</p>
