@@ -32,8 +32,8 @@ First participation in the OmniStack 11.0 intensive - <a href="https://rocketsea
 An application where the objective is to find people in order to contribute to ONGs in need of help for any cause that has occurred. On the WEB platform, ONGs can register informing the cause with their details and cost value, in the MOBILE application they will find registered ONGs and select one (or more) cases that want to contribute to help.
 
 <div align="center">
-  <img src="./hero-web.gif" width="350px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./hero-mob.gif" width="130px" />
+  <img src="./hero-web.gif" width="550px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./hero-mob.gif" width="200px" />
 </div>
 
 <br>
